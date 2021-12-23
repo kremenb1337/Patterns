@@ -23,7 +23,7 @@ public class House {
     }
 
     public void displayHouse() {
-        System.out.println("Amount of rooms: " + amountOfRooms);
+        System.out.println("Amount of    rooms: " + amountOfRooms);
         System.out.println((garden ? "Does" : "Doesn't") + " have garden");
         System.out.println((garage ? "Does" : "Doesn't") + " have garage");
         System.out.println((pool ? "Does" : "Doesn't") + " have pool");
