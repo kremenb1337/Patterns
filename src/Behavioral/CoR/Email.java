@@ -8,6 +8,6 @@ public class Email extends Notifier {
 
     @Override
     public void message(String msg) {
-        System.out.println("Notification on emaiXyetal " + msg);
+        System.out.println("Notification on email " + msg);
     }
 }
