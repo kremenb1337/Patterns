@@ -7,5 +7,6 @@ public class Client {
         Caller caller = new Caller(print);
 
         caller.execute();
+        receiver.printState();
     }
 }
